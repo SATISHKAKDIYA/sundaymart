@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0b2e61a7-6087-4df7-b918-40ee1f8e9498" name="admin.githubit.com" url="http://githubit.com">
+        <fileTransfer host="githubit.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="87a9a46c-4248-4956-8bcd-ff564c1907fc" name="sundayshop.net" url="http://sundaymart.net">
+        <fileTransfer rootFolder="/var/www/html/githubit" accessType="SFTP" host="208.88.226.187" port="22" sshConfigId="fa5b3c88-fff0-44c6-94c4-0a8a7d72170a" sshConfig="root@208.88.226.187:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

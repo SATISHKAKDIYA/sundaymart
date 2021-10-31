@@ -1,0 +1,59 @@
+.site-page-header, .site-layout-background {
+    background-color: #fff !important;
+}
+
+.g-header-right {
+    margin-left: auto;
+}
+
+#g-header .nav-item {
+    padding: 0 15px;
+}
+
+.ant-input, .ant-input-affix-wrapper, .login .ant-btn {
+    border-radius: 5px !important;
+}
+
+.ant-card {
+    border-radius: 10px !important;
+}
+
+.nav-text {
+    text-decoration: none !important;
+}
+
+.padding-20 {
+    padding: 20px;
+}
+
+.ant-picker, .ant-input-number {
+    width: 100% !important;
+    border-radius: 5px !important;
+}
+
+.defaultLabel {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    height: 32px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+}
+
+.chat-button {
+    width: 50px;
+    height: 50px;
+    right: 30px!important;
+    bottom: 50px!important;
+    left: auto!important;
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0 3px 6px -4px #0000001f,0 6px 16px #00000014,0 9px 28px 8px #0000000d;
+    transition: color .3s;
+    justify-content: center;
+    display: grid;
+}
+
+.ant-btn {
+    height: 36px!important;
+}

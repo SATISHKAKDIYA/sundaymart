@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "996182123615",
+    "project_id": "gshop-ce7e0",
+    "storage_bucket": "gshop-ce7e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996182123615:android:62cecd7e88560774f567ea",
+        "android_client_info": {
+          "package_name": "com.githubit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996182123615-stsml0qm8f02hp0n2gorq7efj047gpeh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.githubit",
+            "certificate_hash": "7e7766c08092e115c77b16795cfd1b8f4fe73b7e"
+          }
+        },
+        {
+          "client_id": "996182123615-htk9ndfuqia30jtkr76id1c3uc37eu68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4jyddcq7u-ND9XoIV2Jqv3nmE4VCZFRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996182123615-htk9ndfuqia30jtkr76id1c3uc37eu68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

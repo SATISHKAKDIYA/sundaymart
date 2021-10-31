@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sundaymart Documentation</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+          rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/prism/prism.css">
+    <link rel="stylesheet" href="assets/plugins/lightbox/dist/ekko-lightbox.css">
+    <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body class="body-pink">
+<div class="page-wrapper">
+    <!-- ******Header****** -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="branding">
+                <h1 class="logo">
+                    <a href="index.html">
+                        <span class="text-success text-bold">Sunday</span><span class="text-bold">Mart</span> - Flutter
+                        app with laravel admin panel
+                    </a>
+                </h1>
+            </div>
+        </div><!--//container-->
+    </header><!--//header-->
+    <div class="doc-wrapper">
+        <div class="container">
+            <div id="doc-header" class="doc-header text-center">
+                <h1 class="doc-title"><span aria-hidden="true" class="icon icon_puzzle_alt"></span> Documentation</h1>
+                <div class="meta"><i class="far fa-clock"></i> Last updated: October 4th, 2021</div>
+            </div><!--//doc-header-->
+            <div class="doc-body row">
+                <div class="doc-content col-md-9 col-12 order-1">
+                    <div class="content-inner">
+                        <section id="panel_instroduction" class="doc-section">
+                            <h2 class="section-title">Admin panel Introduction</h2>
+                            <div class="section-block">
+                                <p>This project is written in laravel for backend, react.js for frontend and mysql for
+                                    database.</p>
+                                <p>
+                                    <b>Laravel</b> is a web application framework with expressive, elegant syntax. We’ve
+                                    already laid the foundation — freeing you to create without sweating the small
+                                    things.
+                                </p>
+                                <p>
+                                    <b>React</b> (also known as React.js or ReactJS) is an open-source, front-end,
+                                    JavaScript library for building user interfaces or UI components. It is maintained
+                                    by Facebook and a community of individual developers and companies. React can be
+                                    used as a base in the development of single-page or mobile applications
+                                </p>
+                                <img src="./assets/images/admin.png"
+                                     style="width: 100%;margin-top: 20px;margin-bottom: 20px;">
+                            </div><!--//section-block-->
+                        </section><!--//doc-section-->
+                        <section id="upload_on_server" class="doc-section">
+                            <h2 class="section-title">Upload on server</h2>
+                            <div class="section-block">
+                                <p>
+
+                                <ul class="list list-unstyled">
+                                    <li>1. Zip all files except (<i>node_modules</i>
+                                        folder)
+                                    </li>
+                                    <li>2. Upload the zip file to the server
+                                    </li>
+                                    <li>3. Unzip the uploaded file
+                                    </li>
+                                    <li>4. Run <code>npm install</code> to install node modules.</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </section>
+                        <section id="create_db" class="doc-section">
+                            <h2 class="section-title">Create database</h2>
+                            <div class="section-block">
+                                <p>
+                                    Follow the steps below to create the database
+                                <ul class="list list-unstyled">
+                                    <li>1. Create mysql database on your server</li>
+                                    <li>2. Enter username, password and database name to <i>.env</i>
+                                    </li>
+                                    <li>3. Run <code>php artisan migrate</code> to create tables in database
+                                        <img src="./assets/images/migrate.png"
+                                             style="width: 100%;margin-top: 20px;margin-bottom: 20px;">
+                                    </li>
+                                    <li>4. Run <code>php artisan db:seed</code>
+                                        code to
+                                        create data in database
+                                        <img src="./assets/images/seed.png"
+                                             style="width: 100%;margin-top: 20px;margin-bottom: 20px;">
+                                    </li>
+                                </ul>
+                                </p>
+                            </div>
+                        </section>
+                        <section id="run" class="doc-section">
+                            <h2 class="section-title">Run on server</h2>
+                            <div class="section-block">
+                                <p>
+
+                                <ul class="list list-unstyled">
+                                    <li>1. Run <code>npm run prod</code> to create frontend build files.
+                                    <li>2. Configure apache to run project
+                                    </li>
+                                </ul>
+                                </p>
+                            </div>
+                        </section>
+
+                        <section id="app_intro" class="doc-section">
+                            <h2 class="section-title">App Introduction</h2>
+                            <div class="section-block">
+                                <p>
+                                    The mobile app was developed with a flutter framework created by Google. Flutter is
+                                    an open-source mobile application development kit used in the development of
+                                    applications for Android and iOS
+
+                                <h4>Requirements</h4>
+
+                                To edit this project you must have Flutter and Dart installed and configured
+                                successfully on your device <a href="https://flutter.dev/docs/get-started/install"
+                                                               target="_blank" rel="noopener">Install flutter</a><br>Set
+                                up your editor Install the <a
+                                    href="https://flutter.dev/docs/get-started/editor?tab=androidstudio" target="_blank"
+                                    rel="noopener">Flutter and Dart plugins</a>
+                                </p>
+                            </div>
+                        </section>
+                        <section id="config" class="doc-section">
+                            <h2 class="section-title">Configuration</h2>
+                            <div class="section-block">
+                                <p>
+                                    Before running the app, you need to set up several configurations
+                                <ul>
+                                    <li class="list list-unstyled">
+                                    <li>1. Download and extract the project to any folder</li>
+                                    <li>2. Open project in preferred IDE</li>
+                                    <li>3. Open terminal in project folder and run <code>flutter pub get</code> to
+                                        install all packages
+                                    </li>
+                                    <li>4. Open <i>/lib/src/config/global_config.dart</i> and replace the URL with the
+                                        URL of your server
+                                        <img src="./assets/images/file3.png"
+                                             style="width: 100%;margin-top: 20px;margin-bottom: 20px;">
+                                    </li>
+                                    <li>5. Open <i>/lib/src/config/sms_config.dart</i> and add your nexmo api key. Add
+                                        the secret key if you want to use nexmo for verification.
+                                    </li>
+                                    <li>6. Create your own <a href="https://cloud.google.com/maps-platform/"
+                                                              target="_blank" rel="noopener">
+                                        Google Maps API key</a>
+                                    </li>
+                                    <li>7. Create the project in firebase and get the cloud messaging key.
+                                    </li>
+                                </ul>
+                                </p>
+                            </div>
+                        </section>
+                        <section id="android_config" class="doc-section">
+                            <h2 class="section-title">Android configuration</h2>
+                            <div class="section-block">
+                                <ul>
+                                    <li class="list list-unstyled">
+                                    <li>1. Create and download your <a
+                                            href="https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html#foreground.space.trim=1&foreground.space.pad=0.25&foreColor=rgba(96%2C%20125%2C%20139%2C%200)&backColor=rgb(68%2C%20138%2C%20255)&crop=0&backgroundShape=square&effects=none&name=ic_launcher">app
+                                        icon</a>
+                                    </li>
+                                    <li>2. After downloading, replace the icons folder with the following folders:
+                                        <ol>
+                                            <li><i>/mipmap-hdpi</i> in <i>/android/app/src/main/res/</i> folder</li>
+                                            <li><i>/mipmap-mdpi</i> in <i>/android/app/src/main/res/</i> folder</li>
+                                            <li><i>/mipmap-xhdpi</i> in <i>/android/app/src/main/res/</i> folder</li>
+                                            <li><i>/mipmap-xxhdpi</i> in <i>/android/app/src/main/res/</i> folder</li>
+                                            <li><i>/mipmap-xxxhdpi</i> in <i>/android/app/src/main/res/</i> folder</li>
+                                        </ol>
+                                        <img src="./assets/images/android.png"
+                                             style="width: 100%;margin-top: 20px;margin-bottom: 20px;">
+                                    </li>
+                                    <li>3. Open <i>/android/app/build.gradle</i> and change the package name</li>
+                                    <li>4. Open all <u>AndroidManifest.xml</u> files from <i>/android/app/src/main/</i>,
+                                        <i>/android/app/src/profil/</i>, <i>
+
+                                            /android/app/src/debug/</i> folders and set package name and
+                                        application name.
+                                    </li>
+                                    <li>5. Open <i>/android/app/src/main/kotlin/-- Package name --/MainActivity.kt</i>
+                                        and change the package name
+                                    </li>
+                                    <li>6. Follow <a href="https://pub.dev/packages/flutter_google_maps"> Flutter google
+                                        map documentation</a>to configure app for android
+                                    </li>
+                                    <li>7. Follow <a href="https://firebase.flutter.dev/docs/messaging/overview"> Push
+                                        notification documentation</a> to configure push notification for android
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                        <section id="ios_config" class="doc-section">
+                            <h2 class="section-title">Ios configuration</h2>
+                            <div class="section-block">
+                                <ul>
+                                    <li>1. Create icons with following sizes
+                                        <ol>
+                                            <li>40x40</li>
+                                            <li>58x58</li>
+                                            <li>60x60</li>
+                                            <li>80x80</li>
+                                            <li>87x87</li>
+                                            <li>120x120</li>
+                                            <li>180x180</li>
+                                        </ol>
+                                    </li>
+                                    <li>2. Click Assets.xcassets in the Project navigator and choose AppIcon. This will
+                                        give you an empty app icon set. 
+                                        <img src="./assets/images/ios_icon.png"
+                                             style="width: 100%;margin-top: 20px;margin-bottom: 20px;"><br/>
+                                        Drag the right-sized image (in .png format) from Finder onto every blank in the
+                                        app settings. The app icon should be all set up by this moment. 
+                                        <img src="./assets/images/banof.png"
+                                             style="width: 100%;margin-top: 20px;margin-bottom: 20px;">
+                                    </li>
+                                    <li>3. Follow <a href="https://pub.dev/packages/flutter_google_maps"> Flutter google
+                                        map documentation</a> to configure app for ios
+                                    </li>
+                                    <li>4. Follow <a href="https://firebase.flutter.dev/docs/messaging/overview"> Push
+                                        notification documentation</a> to configure push notification for ios
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                        <section id="config" class="doc-section">
+                            <h2 class="section-title">Run & Build</h2>
+                            <div class="section-block">
+                                <p>
+                                    If you want to run the app on an emulator, run <code>flutter run</code><br/>
+                                    If you want to build apk, follow the steps below:
+                                    <img src="./assets/images/code9.png"
+                                         style="width: 100%;margin-top: 20px;margin-bottom: 20px;">
+                                <ul class="list list-unstyled">
+                                    <li>To create apk file, run <code>flutter build apk --release</code></li>
+                                    <li>To generate an app bundle, run <code>flutter build appbundle --target-platform
+                                        android-arm,android-arm64,android-x64</code></li>
+                                    <li>To split the APKs per ABI, run <code>flutter build apk --target-platform
+                                        android-arm,android-arm64,android-x64 --split-per-abi</code></li>
+                                    <li>To install your application on your connected device run <code>flutter
+                                        install</code></li>
+                                    <li>
+                                        If you want to upload your application to Google Play you must sign it before
+                                        uploading by generating a signing key by running the following command:
+                                        <br/><code>keytool -genkey -v -keystore android/app/key.jks -keyalg RSA -keysize
+                                        2048 -validity 10000 -alias key</code>
+                                        Open <i>/android/key.properties</i> and edit the following attributes:
+                                        <br/>
+                                        <img src="./assets/images/file4.png"
+                                             style="width: 100%;margin-top: 20px;margin-bottom: 20px;">
+                                    </li>
+                                    <li>After editing, re-build your application</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </section>
+                    </div><!--//content-inner-->
+                </div><!--//doc-content-->
+                <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+                    <div id="doc-nav" class="doc-nav">
+                        <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+                            <a class="nav-link scrollto" href="#admin-components">Laravel admin panel</a>
+                            <nav class="doc-sub-menu nav flex-column">
+                                <a class="nav-link scrollto" href="#panel_instroduction">Introduction</a>
+                                <a class="nav-link scrollto" href="#upload_on_server">Upload on server</a>
+                                <a class="nav-link scrollto" href="#create_db">Create database</a>
+                                <a class="nav-link scrollto" href="#run">Run on server</a>
+                            </nav>
+                            <a class="nav-link scrollto" href="#app-components">App</a>
+                            <nav class="doc-sub-menu nav flex-column">
+                                <a class="nav-link scrollto" href="#app_intro">Introduction</a>
+                                <a class="nav-link scrollto" href="#config">Configuration</a>
+                                <a class="nav-link scrollto" href="#android_config">Android configuration</a>
+                                <a class="nav-link scrollto" href="#ios_config">Ios configuration</a>
+                                <a class="nav-link scrollto" href="#build">Run & Build</a>
+                            </nav><!--//nav-->
+                        </nav><!--//doc-menu-->
+                    </div><!--//doc-nav-->
+                </div><!--//doc-sidebar-->
+            </div><!--//doc-body-->
+        </div><!--//container-->
+    </div><!--//doc-wrapper-->
+
+
+</div><!--//page-wrapper-->
+
+
+<!-- Main Javascript -->
+<script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/plugins/prism/prism.js"></script>
+<script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+<script type="text/javascript" src="assets/plugins/lightbox/dist/ekko-lightbox.min.js"></script>
+<script type="text/javascript" src="assets/plugins/stickyfill/dist/stickyfill.min.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+</html> 
+
